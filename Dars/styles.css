@@ -1,0 +1,23 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.project-image {
+    max-height: 400px; /* Adjust as needed */
+    object-fit: cover;
+    width: 100%;
+}
+
+.menu-hidden {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu-hidden {
+        display: block;
+    }
+
+    .menu-visible {
+        display: none;
+    }
+}
